@@ -1,7 +1,7 @@
 # skyblu.earth — Claude Code Instructions
 
 ## Who this is for
-Sky Blu. Lives in Playa del Carmen, Mexico. Music, movement, spirituality, connection.
+Sky Blu. Lives in Playa del Carmen, Mexico. Nutrition, movement, prosperity, longevity.
 Not a personal brand in the niche sense — a single living environment where all of it belongs.
 
 ## What this site is
@@ -31,12 +31,10 @@ One home page. That's it to start. Contains:
 Resist the urge to add pages, sections, or features beyond this until the home page is right.
 
 ## Platform
-Not decided yet. Options being considered:
-- Hand-coded HTML/CSS (sive.rs approach — maximum simplicity)
-- Eleventy or Astro (markdown → static HTML, easy to extend)
-- Avoid: WordPress, Webflow, or anything with a visual editor
-
-Evaluate and decide before writing any code. Document the choice here.
+**Eleventy (11ty)** — markdown → static HTML, deployed to Netlify.
+- `npm start` runs the dev server at localhost:8080
+- `npm run build` outputs to `./_site/`
+- Content lives as `.md` files in the project root
 
 ## Voice reference
 Read `_AI/CONTEXT.md` in the parent vault for Sky's voice, values, and communication style.

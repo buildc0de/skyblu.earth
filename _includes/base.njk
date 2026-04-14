@@ -3,12 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <title>Sky Blu</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script>
+    (function () {
+      var theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
-  <main>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode">☀</button>
+  <main id="main-content">
     {{ content | safe }}
   </main>
+  <script>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      var html = document.documentElement;
+
+      function applyTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☽';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+        } else {
+          btn.textContent = '☀';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+        }
+      }
+
+      applyTheme(html.getAttribute('data-theme'));
+
+      // Follow system preference changes unless the user has manually overridden
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+        applyTheme(e.matches ? 'dark' : 'light');
+      });
+
+      btn.addEventListener('click', function () {
+        var current = html.getAttribute('data-theme');
+        applyTheme(current === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
 </body>
 </html>
