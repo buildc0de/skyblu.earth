@@ -5,28 +5,10 @@ permalink: /
 
 # Sky Blu
 
-```
-Life Systems Engineer
-Sharing what works
-nutrition • movement • prosperity • longevity
-conscious relating • deep intimacy • medicina 🍄 • AI
-```
-
-## Who
-
-Sky Blu.
-
-<!-- A few sentences. Who you are, where you are, what you're oriented around. -->
-<!-- Write it yourself — this is the most important copy on the site.          -->
-
----
-
-## What
-
-<!-- What you offer / do in the world. Keep it concrete and human.            -->
-
----
-
+`Life Systems Engineer`  
+`Sharing what works`  
+`nutrition • movement • prosperity • longevity`  
+`conscious relating • deep intimacy • medicina 🍄 • AI`  
 ## Connect
 
 <ul class="connect-links">
