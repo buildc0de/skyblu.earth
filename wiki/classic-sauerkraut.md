@@ -1,5 +1,5 @@
 ---
-title: Classic Sauerkraut
+title: Classic Lacto-Fermented Sauerkraut
 featured: true
 ---
 
