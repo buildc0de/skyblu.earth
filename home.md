@@ -5,9 +5,9 @@ permalink: /
 
 # Sky Blu
 
-`Life Systems Engineer`  
+`Life Systems Engineer / Everyday Genie 🧞‍♂️`  
 `Sharing what works`  
-`nutrition • movement • prosperity • longevity`  
+`nutrition • movement • prosperity`  
 `conscious relating • deep intimacy • medicina 🍄 • AI`  
 ## Garden of Living Things
 

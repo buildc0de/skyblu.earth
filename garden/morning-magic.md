@@ -4,7 +4,7 @@ draft: true
 ---
 # Morning Magic Stack
 
-I wake up at 5 AM most mornings — not because waking early is virtuous, but because this particular stretch of time before dawn is different from the rest. I call it the **Morning Magic Stack**. Eight elements, roughly 75 minutes. I also call it my Amrit Vela Container (more on Containers soon).
+I wake up at 5 AM most mornings — not because waking early is virtuous. Because the hour before dawn is different. I call it the **Morning Magic Stack**. Eight elements, roughly 75 minutes. I also call it my Amrit Vela Container (more on Containers soon).
 
 # Amrit Vela
 
