@@ -198,6 +198,23 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* ── Calendly embed ── */
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 700px;
+}
+
+/* ── Back link ── */
+.back-link {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
 /* ── Responsive ── */
 @media (max-width: 480px) {
   html {
