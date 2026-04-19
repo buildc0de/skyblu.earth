@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 
 <p>Things I've learned, tested, and keep coming back to. Recipes, systems, practices — updated as my understanding changes.</p>
 
-{% set highlighted = collections.wiki | where("featured", true) %}
+{% set highlighted = collections.garden | where("featured", true) %}
 {% if highlighted.length %}
 <h2>Start here</h2>
 <ul class="garden-list">
@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
 
 <h2>All entries</h2>
 <ul class="garden-list">
-  {% for item in collections.wiki | reverse %}
+  {% for item in collections.garden | reverse %}
   <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
   {% endfor %}
 </ul>

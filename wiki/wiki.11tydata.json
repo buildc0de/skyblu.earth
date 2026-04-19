@@ -1,5 +1,0 @@
-{
-  "layout": "wiki.njk",
-  "permalink": "/{{ page.fileSlug }}/",
-  "tags": "wiki"
-}
