@@ -9,6 +9,12 @@ permalink: /
 `Sharing what works`  
 `nutrition • movement • prosperity • longevity`  
 `conscious relating • deep intimacy • medicina 🍄 • AI`  
+## Garden of Living Things
+
+Things I've learned, tested, and keep returning to — recipes, systems, practices.
+
+[→ Enter the garden](/garden/)
+
 ## Connect
 
 <ul class="connect-links">

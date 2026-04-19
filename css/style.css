@@ -198,6 +198,27 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* ── Garden list ── */
+.garden-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.garden-list a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.garden-list a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* ── Calendly embed ── */
 .calendly-inline-widget {
   min-width: 320px;
