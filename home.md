@@ -8,7 +8,7 @@ permalink: /
 `Life Systems Engineer / Everyday Genie 🧞‍♂️`  
 `Sharing what works`  
 `nutrition • movement • prosperity`  
-`conscious relating • deep intimacy • medicina 🍄 • AI`  
+`conscious relating • deep intimacy • medicina 🍄`  
 ## Garden of Living Things
 
 Things I've learned, tested, and keep returning to — recipes, systems, practices.
